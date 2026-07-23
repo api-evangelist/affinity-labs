@@ -1,24 +1,59 @@
 aid: affinity-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/affinity-labs.png
 name: Affinity Labs
-description: 'Affinity Labs is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Affinity Labs was a consumer social-networking company founded in 2006 by Christopher
+  Michel (founder of Military.com) that built online communities for niche professional groups
+  including firefighters (FireLink), police officers (PoliceLink), nurses (NursingLink) and the
+  Armed Forces (HMForces.co.uk). Backed by Trinity Ventures and the Mayfield Fund, it grew past
+  one million registered members before being merged into Monster Worldwide (Monster.com) in a
+  $61 million transaction in January 2008. Its European operations shut down in 2012 and its
+  domains and content were amalgamated into the Monster brand. The company is defunct and
+  publishes no developer/API surface; this profile is retained as a historical portfolio-lead
+  record. Not to be confused with Affinity (affinity.co), the unrelated relationship-intelligence
+  CRM.'
 url: https://raw.githubusercontent.com/api-evangelist/affinity-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - trinity-ventures
+- mayfield-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: 'Merged into Monster Worldwide (Monster.com) in January 2008; no active website or API surface.'
+x-founded: '2006'
+x-founder: Christopher Michel
+x-acquired-by: Monster Worldwide
+x-acquired-date: '2008-01'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Social Networking
+- Online Communities
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
